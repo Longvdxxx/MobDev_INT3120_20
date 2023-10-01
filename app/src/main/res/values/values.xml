@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Trong values/styles.xml -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Các thuộc tính khác -->
+        <item name="buttonStyle">@style/MyButtonTheme</item>
+    </style>
+</resources>

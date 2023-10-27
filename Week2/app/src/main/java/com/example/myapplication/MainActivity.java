@@ -5,11 +5,11 @@ import android.os.Bundle;
 import com.example.myapplication.R;
 import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.view.SearchEvent;
 import android.view.View;
 
 import androidx.core.view.MenuItemCompat;
+
 import androidx.core.view.WindowCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -19,7 +19,9 @@ import com.example.myapplication.databinding.ActivityMainBinding;
 
 import android.view.Menu;
 import android.view.MenuItem;
+
 import android.widget.SearchView;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,9 +54,11 @@ private ActivityMainBinding binding;
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
+
         MenuItem menuItem = menu.findItem(R.id.linear_screen);
         SearchView searchView = (SearchView) menuItem.getActionView();
         return super.onCreateOptionsMenu(menu);
+
     }
 
     @Override
@@ -65,7 +69,9 @@ private ActivityMainBinding binding;
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
+
         if (id == R.id.linear_screen) {
+
             return true;
         }
 

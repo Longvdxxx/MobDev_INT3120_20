@@ -14,8 +14,10 @@
     <string name="please_give_generously">Please Give Generously</string>
     <string name="paypal">PayPal</string>
     <string name="direct">Direct</string>
+
     <string name="amount">Amount</string>
     <string name="donate">Donate</string>
     <string name="total_so_far">Total so far: 1998$</string>
     <string name="linear">Linear</string>
+
 </resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/linear">
+
+    <fragment
+        android:id="@+id/linear"
+        android:name="com.example.myapplication.Linear"
+        android:label="Donation"
+        tools:layout="@layout/linear" >
+
+        <action
+            android:id="@+id/action_linear_to_constraint"
+            app:destination="@id/constraint" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/constraint"
+        android:name="com.example.myapplication.Constraint"
+        android:label="Donation"
+        tools:layout="@layout/constraint" >
+
+        <!--        <action-->
+        <!--            android:id="@+id/action_FirstFragment_to_SecondFragment"-->
+        <!--            app:destination="@id/SecondFragment" />-->
+    </fragment>
+</navigation>

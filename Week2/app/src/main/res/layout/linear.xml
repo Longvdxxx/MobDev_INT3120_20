@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Linear">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textview_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/donation_label"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/please_give_generously"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RadioGroup
+                android:layout_width="140dp"
+                android:layout_height="93dp"
+                android:layout_gravity="start"
+                android:gravity="start"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paypal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direct" />
+            </RadioGroup>
+
+            <NumberPicker
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_gravity="end"
+                android:gravity="end">
+
+            </NumberPicker>
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="404dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="-9dp"
+            tools:layout_editor_absoluteY="230dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="89dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="-10dp"
+                android:text="@string/amount"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="368dp" />
+
+            <EditText
+                android:layout_width="297dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="4dp"
+                tools:layout_editor_absoluteX="97dp"
+                tools:layout_editor_absoluteY="350dp">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="@string/donate"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="410dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="218dp"
+                android:layout_height="31dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/total_so_far"
+                tools:layout_editor_absoluteX="138dp"
+                tools:layout_editor_absoluteY="426dp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

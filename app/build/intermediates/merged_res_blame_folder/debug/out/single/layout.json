@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\vuvie\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\vuvie\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-42:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vuvie\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\content_main.xml",
+        "source": "C:\\Users\\vuvie\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-42:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vuvie\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\vuvie\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-42:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\vuvie\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\week1.xml",
+        "source": "C:\\Users\\vuvie\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-42:\\layout\\week1.xml"
+    },
+    {
+        "merged": "C:\\Users\\vuvie\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\vuvie\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-42:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-39:/layout/week2.xml",
+        "source": "com.example.myapplication.app-main-42:/layout/week2.xml"
+    }
+]
